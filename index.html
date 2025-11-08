@@ -9,45 +9,42 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="min-h-screen bg-white text-neutral-800">
+
   <header class="sticky top-0 z-40 backdrop-blur border-b border-neutral-200/70 bg-white/80">
     <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-      <a href="#home" class="flex items-center gap-3">
+      <div class="flex items-center gap-3">
         <div class="h-10 w-10 rounded-xl bg-emerald-600 text-white grid place-items-center font-bold">SP</div>
         <div>
           <div class="font-extrabold text-emerald-700 text-lg leading-tight">Shizen Power</div>
-          <div id="brandTag" class="text-xs text-neutral-500">Energia • Elétrica • EcoCute</div>
+          <div class="text-xs text-neutral-500">Energia • Elétrica • EcoCute</div>
         </div>
-      </a>
+      </div>
       <div class="flex items-center gap-2">
         <a href="https://wa.me/818068892840" class="hidden md:inline-block px-3 py-2 rounded-xl border border-emerald-600 text-emerald-700 hover:bg-emerald-50">WhatsApp</a>
-        <a href="tel:+818068892840" class="hidden md:inline-block px-3 py-2 rounded-xl bg-emerald-600 text-white hover:bg-emerald-700" id="ctaCall">Ligar agora 080-6889-2840</a>
-        <div class="inline-flex rounded-xl border overflow-hidden">
-          <button id="btnPT" class="px-3 py-1 text-sm bg-emerald-600 text-white">PT</button>
-          <button id="btnJA" class="px-3 py-1 text-sm bg-white text-neutral-700 hover:bg-neutral-50">日本語</button>
-        </div>
+        <a href="tel:+818068892840" class="hidden md:inline-block px-3 py-2 rounded-xl bg-emerald-600 text-white hover:bg-emerald-700">Ligar agora 080-6889-2840</a>
       </div>
     </div>
   </header>
 
-  <section id="home" class="relative">
+  <section class="relative">
     <div class="max-w-6xl mx-auto px-4 py-12 md:py-16 grid md:grid-cols-2 gap-10 items-center">
       <div>
-        <h1 id="heroTitle" class="text-4xl md:text-6xl font-extrabold text-emerald-700 tracking-tight">Shizen Power</h1>
-        <p id="heroSubtitle" class="mt-4 text-lg md:text-xl text-neutral-600">Elétrica residencial, Instalação de Painel Solar e EcoCute em Shizuoka</p>
+        <h1 class="text-4xl md:text-6xl font-extrabold text-emerald-700 tracking-tight">Shizen Power</h1>
+        <p class="mt-4 text-lg md:text-xl text-neutral-600">Elétrica residencial, Instalação de Painel Solar e EcoCute em Shizuoka</p>
         <div class="mt-6 flex flex-wrap gap-3">
-          <a href="https://wa.me/818068892840" id="ctaQuote" class="px-5 py-3 rounded-2xl bg-emerald-600 text-white hover:bg-emerald-700 shadow">Pedir orçamento</a>
-          <a href="tel:+818068892840" class="px-5 py-3 rounded-2xl border border-neutral-300 hover:bg-neutral-50" id="ctaCall2">Ligar agora</a>
+          <a href="https://wa.me/818068892840" class="px-5 py-3 rounded-2xl bg-emerald-600 text-white hover:bg-emerald-700 shadow">Pedir orçamento</a>
+          <a href="tel:+818068892840" class="px-5 py-3 rounded-2xl border border-neutral-300 hover:bg-neutral-50">Ligar agora</a>
         </div>
         <div class="mt-4 text-sm text-neutral-500">静岡県磐田市一色91-2 • 080-6889-2840</div>
       </div>
       <div class="grid grid-cols-3 gap-4">
         <div class="rounded-2xl border p-4 text-center shadow-sm">
           <img src="./assets/electric.svg" alt="Elétrica" class="h-16 mx-auto">
-          <div id="pill1" class="mt-2 font-semibold">Elétrica</div>
+          <div class="mt-2 font-semibold">Elétrica</div>
         </div>
         <div class="rounded-2xl border p-4 text-center shadow-sm">
           <img src="./assets/solar.svg" alt="Solar" class="h-16 mx-auto">
-          <div id="pill2" class="mt-2 font-semibold">Solar</div>
+          <div class="mt-2 font-semibold">Solar</div>
         </div>
         <div class="rounded-2xl border p-4 text-center shadow-sm">
           <img src="./assets/eco.svg" alt="EcoCute" class="h-16 mx-auto">
@@ -57,53 +54,89 @@
     </div>
   </section>
 
-  <section id="services" class="py-12 md:py-16">
+  <section class="py-12 md:py-16">
     <div class="max-w-6xl mx-auto px-4">
-      <h2 id="servicesTitle" class="text-2xl md:text-3xl font-extrabold tracking-tight text-neutral-900">Serviços</h2>
+      <h2 class="text-2xl md:text-3xl font-extrabold tracking-tight text-neutral-900">Serviços</h2>
       <div class="mt-6 grid md:grid-cols-3 gap-6">
         <div class="rounded-2xl border p-6 shadow-sm hover:shadow-md transition">
           <img src="./assets/electric.svg" alt="Elétrica residencial" class="h-20 mx-auto mb-4">
-          <div class="text-emerald-600 text-xl font-bold" id="svc1t">Elétrica residencial</div>
-          <p id="svc1d" class="mt-2 text-sm text-neutral-600 leading-relaxed">Instalação, manutenção, quadros de disjuntores, iluminação, tomadas 100V/200V e V2H.</p>
+          <div class="text-emerald-600 text-xl font-bold">Elétrica residencial</div>
+          <p class="mt-2 text-sm text-neutral-600 leading-relaxed">Instalação, manutenção, quadros de disjuntores, iluminação, tomadas 100V/200V e V2H.</p>
         </div>
         <div class="rounded-2xl border p-6 shadow-sm hover:shadow-md transition">
           <img src="./assets/solar.svg" alt="Instalação de Painel Solar" class="h-20 mx-auto mb-4">
-          <div class="text-emerald-600 text-xl font-bold" id="svc2t">Instalação de Painel Solar</div>
-          <p id="svc2d" class="mt-2 text-sm text-neutral-600 leading-relaxed">Projetos sob medida, off-grid/on-grid, inversores híbridos e bancos de baterias.</p>
+          <div class="text-emerald-600 text-xl font-bold">Instalação de Painel Solar</div>
+          <p class="mt-2 text-sm text-neutral-600 leading-relaxed">Projetos sob medida, off-grid/on-grid, inversores híbridos e bancos de baterias.</p>
         </div>
         <div class="rounded-2xl border p-6 shadow-sm hover:shadow-md transition">
           <img src="./assets/eco.svg" alt="Instalação de EcoCute" class="h-20 mx-auto mb-4">
-          <div class="text-emerald-600 text-xl font-bold" id="svc3t">Instalação de EcoCute</div>
-          <p id="svc3d" class="mt-2 text-sm text-neutral-600 leading-relaxed">Substituição do gás por bomba de calor (CO₂). Economia de até 60% no aquecimento de água.</p>
+          <div class="text-emerald-600 text-xl font-bold">Instalação de EcoCute</div>
+          <p class="mt-2 text-sm text-neutral-600 leading-relaxed">Substituição do gás por bomba de calor (CO₂). Economia de até 60% no aquecimento de água.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="payments" class="py-12 md:py-16">
-    <div class="max-w-6xl mx-auto px-4">
-      <h2 id="payTitle" class="text-2xl md:text-3xl font-extrabold tracking-tight text-neutral-900">Pagamentos aceitos</h2>
-      <div class="mt-6 flex flex-wrap gap-2 items-center">
-        <img src="./assets/bank.svg" alt="Financiamento bancário" class="h-8 bg-white p-2 rounded-xl border shadow-sm" />
-        <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Visa.svg" alt="VISA" class="h-8 bg-white p-2 rounded-xl border shadow-sm" referrerpolicy="no-referrer" loading="lazy"/>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" alt="Mastercard" class="h-8 bg-white p-2 rounded-xl border shadow-sm" referrerpolicy="no-referrer" loading="lazy"/>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/JCB_logo.svg" alt="JCB" class="h-8 bg-white p-2 rounded-xl border shadow-sm" referrerpolicy="no-referrer" loading="lazy"/>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/American_Express_logo.svg" alt="AMEX" class="h-8 bg-white p-2 rounded-xl border shadow-sm" referrerpolicy="no-referrer" loading="lazy"/>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/PayPay_Logo.svg" alt="PayPay" class="h-8 bg-white p-2 rounded-xl border shadow-sm" referrerpolicy="no-referrer" loading="lazy"/>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Dpay_logo.png" alt="d払い" class="h-8 bg-white p-2 rounded-xl border shadow-sm" referrerpolicy="no-referrer" loading="lazy"/>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Au_PAY_logo.svg" alt="au PAY" class="h-8 bg-white p-2 rounded-xl border shadow-sm" referrerpolicy="no-referrer" loading="lazy"/>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Merpay_logo_2019.png" alt="メルペイ" class="h-8 bg-white p-2 rounded-xl border shadow-sm" referrerpolicy="no-referrer" loading="lazy"/>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/WeChat_Pay_logo.svg" alt="WeChat Pay" class="h-8 bg-white p-2 rounded-xl border shadow-sm" referrerpolicy="no-referrer" loading="lazy"/>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Alipay_logo.svg" alt="Alipay" class="h-8 bg-white p-2 rounded-xl border shadow-sm" referrerpolicy="no-referrer" loading="lazy"/>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/ID_logo.svg" alt="iD" class="h-8 bg-white p-2 rounded-xl border shadow-sm" referrerpolicy="no-referrer" loading="lazy"/>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/QUICPay_logo.svg" alt="QUICPay" class="h-8 bg-white p-2 rounded-xl border shadow-sm" referrerpolicy="no-referrer" loading="lazy"/>
+  
+<section id="payments" class="py-12 md:py-16">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-2xl md:text-3xl font-extrabold tracking-tight text-neutral-900">Pagamentos aceitos</h2>
+
+    <div class="space-y-8 mt-6">
+
+      <div>
+        <h3 class="font-bold text-lg mb-3">Financiamento bancário</h3>
+        <div class="flex flex-wrap gap-3 items-center">
+          <img src="./assets/bank.svg" alt="Financiamento bancário" class="h-10 bg-white p-2 rounded-xl border shadow-sm" />
+        </div>
       </div>
+
+      <div>
+        <h3 class="font-bold text-lg mb-3">クレジットカード</h3>
+        <div class="flex flex-wrap gap-3 items-center">
+          <img src="./assets/payments/visa.svg" alt="VISA" class="h-10 bg-white p-2 rounded-xl border shadow-sm"/>
+          <img src="./assets/payments/mastercard.svg" alt="Mastercard" class="h-10 bg-white p-2 rounded-xl border shadow-sm"/>
+          <img src="./assets/payments/jcb.svg" alt="JCB" class="h-10 bg-white p-2 rounded-xl border shadow-sm"/>
+          <img src="./assets/payments/amex.svg" alt="AMEX" class="h-10 bg-white p-2 rounded-xl border shadow-sm"/>
+          <img src="./assets/payments/diners.svg" alt="Diners Club" class="h-10 bg-white p-2 rounded-xl border shadow-sm"/>
+          <img src="./assets/payments/discover.svg" alt="Discover" class="h-10 bg-white p-2 rounded-xl border shadow-sm"/>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="font-bold text-lg mb-3">電子マネー</h3>
+        <div class="flex flex-wrap gap-3 items-center">
+          <img src="./assets/payments/id.svg" alt="iD" class="h-10 bg-white p-2 rounded-xl border shadow-sm"/>
+          <img src="./assets/payments/quicpay.svg" alt="QUICPay" class="h-10 bg-white p-2 rounded-xl border shadow-sm"/>
+          <img src="./assets/payments/waon.svg" alt="WAON" class="h-10 bg-white p-2 rounded-xl border shadow-sm"/>
+          <img src="./assets/payments/nanaco.svg" alt="nanaco" class="h-10 bg-white p-2 rounded-xl border shadow-sm"/>
+          <img src="./assets/payments/edy.svg" alt="Edy" class="h-10 bg-white p-2 rounded-xl border shadow-sm"/>
+          <img src="./assets/payments/pasmo.svg" alt="PASMO" class="h-10 bg-white p-2 rounded-xl border shadow-sm"/>
+          <img src="./assets/payments/suica.svg" alt="Suica" class="h-10 bg-white p-2 rounded-xl border shadow-sm"/>
+          <img src="./assets/payments/icoca.svg" alt="ICOCA" className="h-10 bg-white p-2 rounded-xl border shadow-sm"/>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="font-bold text-lg mb-3">QR・バーコード決済</h3>
+        <div class="flex flex-wrap gap-3 items-center">
+          <img src="./assets/payments/paypay.svg" alt="PayPay" class="h-10 bg-white p-2 rounded-xl border shadow-sm"/>
+          <img src="./assets/payments/dbarai.svg" alt="d払い" class="h-10 bg-white p-2 rounded-xl border shadow-sm"/>
+          <img src="./assets/payments/aupay.svg" alt="au PAY" class="h-10 bg-white p-2 rounded-xl border shadow-sm"/>
+          <img src="./assets/payments/merpay.svg" alt="メルペイ" class="h-10 bg-white p-2 rounded-xl border shadow-sm"/>
+          <img src="./assets/payments/wechatpay.svg" alt="WeChat Pay" class="h-10 bg-white p-2 rounded-xl border shadow-sm"/>
+          <img src="./assets/payments/alipay.svg" alt="Alipay" class="h-10 bg-white p-2 rounded-xl border shadow-sm"/>
+        </div>
+      </div>
+
     </div>
-  </section>
+  </div>
+</section>
+
 
   <footer class="mt-16 border-t bg-neutral-50">
     <div class="max-w-6xl mx-auto px-4 py-8 text-sm text-neutral-600 flex flex-col md:flex-row items-center justify-between gap-3">
-      <div id="footerText">© 2025 Shizen Power. Todos os direitos reservados.</div>
+      <div>© 2025 Shizen Power. Todos os direitos reservados.</div>
       <div class="flex items-center gap-3">
         <a href="tel:+818068892840" class="hover:underline">080-6889-2840</a>
         <span class="text-neutral-400">|</span>
@@ -112,64 +145,5 @@
     </div>
   </footer>
 
-  <script>
-    const PT = {
-      brandTag: "Energia • Elétrica • EcoCute",
-      ctaCall: "Ligar agora",
-      heroSubtitle: "Elétrica residencial, Instalação de Painel Solar e EcoCute em Shizuoka",
-      pills: ["Elétrica","Solar","EcoCute"],
-      servicesTitle: "Serviços",
-      svc1t: "Elétrica residencial",
-      svc1d: "Instalação, manutenção, quadros de disjuntores, iluminação, tomadas 100V/200V e V2H.",
-      svc2t: "Instalação de Painel Solar",
-      svc2d: "Projetos sob medida, off-grid/on-grid, inversores híbridos e bancos de baterias.",
-      svc3t: "Instalação de EcoCute",
-      svc3d: "Substituição do gás por bomba de calor (CO₂). Economia de até 60% no aquecimento de água.",
-      payTitle: "Pagamentos aceitos"
-    };
-    const JA = {
-      brandTag: "電気工事・太陽光・エコキュート",
-      ctaCall: "今すぐ電話",
-      heroSubtitle: "住宅電気工事、太陽光発電、エコキュート設置（静岡：磐田・浜松）",
-      pills: ["電気工事","太陽光","エコキュート"],
-      servicesTitle: "サービス",
-      svc1t: "住宅電気工事",
-      svc1d: "分電盤、照明、100V/200Vコンセント、V2H、メンテナンス。",
-      svc2t: "太陽光発電の設置",
-      svc2d: "オン/オフグリッド、ハイブリッドインバーター、蓄電池を含む設計施工。",
-      svc3t: "エコキュート設置",
-      svc3d: "ガスからCO₂ヒートポンプへ。給湯コスト最大60%削減。",
-      payTitle: "お支払い方法"
-    };
-    function setLang(lang){
-      const t = lang==='ja'? JA: PT;
-      document.documentElement.lang = lang==='ja'? 'ja': 'pt';
-      document.getElementById('brandTag').textContent = t.brandTag;
-      document.getElementById('ctaCall').textContent = t.ctaCall + " 080-6889-2840";
-      document.getElementById('ctaCall2').textContent = t.ctaCall;
-      document.getElementById('heroSubtitle').textContent = t.heroSubtitle;
-      document.getElementById('pill1').textContent = t.pills[0];
-      document.getElementById('pill2').textContent = t.pills[1];
-      document.getElementById('servicesTitle').textContent = t.servicesTitle;
-      document.getElementById('svc1t').textContent = t.svc1t;
-      document.getElementById('svc1d').textContent = t.svc1d;
-      document.getElementById('svc2t').textContent = t.svc2t;
-      document.getElementById('svc2d').textContent = t.svc2d;
-      document.getElementById('svc3t').textContent = t.svc3t;
-      document.getElementById('svc3d').textContent = t.svc3d;
-      document.getElementById('payTitle').textContent = t.payTitle;
-    }
-    document.getElementById('btnPT').addEventListener('click', ()=>{
-      document.getElementById('btnPT').className='px-3 py-1 text-sm bg-emerald-600 text-white';
-      document.getElementById('btnJA').className='px-3 py-1 text-sm bg-white text-neutral-700 hover:bg-neutral-50';
-      setLang('pt');
-    });
-    document.getElementById('btnJA').addEventListener('click', ()=>{
-      document.getElementById('btnJA').className='px-3 py-1 text-sm bg-emerald-600 text-white';
-      document.getElementById('btnPT').className='px-3 py-1 text-sm bg-white text-neutral-700 hover:bg-neutral-50';
-      setLang('ja');
-    });
-    setLang('pt');
-  </script>
 </body>
 </html>
