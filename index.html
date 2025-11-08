@@ -5,11 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Shizen Power | Energia • Elétrica • EcoCute</title>
   <meta name="description" content="Elétrica residencial, Instalação de Painel Solar e EcoCute em Shizuoka (Iwata/Hamamatsu).">
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="min-h-screen bg-white text-neutral-800">
-  <!-- Top bar -->
   <header class="sticky top-0 z-40 backdrop-blur border-b border-neutral-200/70 bg-white/80">
     <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
       <a href="#home" class="flex items-center gap-3">
@@ -30,7 +29,6 @@
     </div>
   </header>
 
-  <!-- Hero -->
   <section id="home" class="relative">
     <div class="max-w-6xl mx-auto px-4 py-12 md:py-16 grid md:grid-cols-2 gap-10 items-center">
       <div>
@@ -44,38 +42,37 @@
       </div>
       <div class="grid grid-cols-3 gap-4">
         <div class="rounded-2xl border p-4 text-center shadow-sm">
-          <img src="assets/electric.svg" alt="Elétrica" class="h-16 mx-auto">
+          <img src="./assets/electric.svg" alt="Elétrica" class="h-16 mx-auto">
           <div id="pill1" class="mt-2 font-semibold">Elétrica</div>
         </div>
         <div class="rounded-2xl border p-4 text-center shadow-sm">
-          <img src="assets/solar.svg" alt="Solar" class="h-16 mx-auto">
+          <img src="./assets/solar.svg" alt="Solar" class="h-16 mx-auto">
           <div id="pill2" class="mt-2 font-semibold">Solar</div>
         </div>
         <div class="rounded-2xl border p-4 text-center shadow-sm">
-          <img src="assets/eco.svg" alt="EcoCute" class="h-16 mx-auto">
+          <img src="./assets/eco.svg" alt="EcoCute" class="h-16 mx-auto">
           <div class="mt-2 font-semibold">EcoCute</div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Services -->
   <section id="services" class="py-12 md:py-16">
     <div class="max-w-6xl mx-auto px-4">
       <h2 id="servicesTitle" class="text-2xl md:text-3xl font-extrabold tracking-tight text-neutral-900">Serviços</h2>
       <div class="mt-6 grid md:grid-cols-3 gap-6">
         <div class="rounded-2xl border p-6 shadow-sm hover:shadow-md transition">
-          <img src="assets/electric.svg" alt="Elétrica residencial" class="h-20 mx-auto mb-4">
+          <img src="./assets/electric.svg" alt="Elétrica residencial" class="h-20 mx-auto mb-4">
           <div class="text-emerald-600 text-xl font-bold" id="svc1t">Elétrica residencial</div>
           <p id="svc1d" class="mt-2 text-sm text-neutral-600 leading-relaxed">Instalação, manutenção, quadros de disjuntores, iluminação, tomadas 100V/200V e V2H.</p>
         </div>
         <div class="rounded-2xl border p-6 shadow-sm hover:shadow-md transition">
-          <img src="assets/solar.svg" alt="Instalação de Painel Solar" class="h-20 mx-auto mb-4">
+          <img src="./assets/solar.svg" alt="Instalação de Painel Solar" class="h-20 mx-auto mb-4">
           <div class="text-emerald-600 text-xl font-bold" id="svc2t">Instalação de Painel Solar</div>
           <p id="svc2d" class="mt-2 text-sm text-neutral-600 leading-relaxed">Projetos sob medida, off-grid/on-grid, inversores híbridos e bancos de baterias.</p>
         </div>
         <div class="rounded-2xl border p-6 shadow-sm hover:shadow-md transition">
-          <img src="assets/eco.svg" alt="Instalação de EcoCute" class="h-20 mx-auto mb-4">
+          <img src="./assets/eco.svg" alt="Instalação de EcoCute" class="h-20 mx-auto mb-4">
           <div class="text-emerald-600 text-xl font-bold" id="svc3t">Instalação de EcoCute</div>
           <p id="svc3d" class="mt-2 text-sm text-neutral-600 leading-relaxed">Substituição do gás por bomba de calor (CO₂). Economia de até 60% no aquecimento de água.</p>
         </div>
@@ -83,86 +80,23 @@
     </div>
   </section>
 
-  <!-- EcoCute benefits -->
-  <section id="ecocute" class="py-12 md:py-16 bg-neutral-50">
-    <div class="max-w-6xl mx-auto px-4">
-      <h2 id="ecoTitle" class="text-2xl md:text-3xl font-extrabold tracking-tight text-neutral-900">Por que EcoCute?</h2>
-      <ul id="ecoList" class="mt-6 space-y-3 text-neutral-700">
-        <li class="flex items-start gap-3"><span class="mt-1">✅</span><span>Até 60% mais barato que o gás (¥8.000–¥15.000 → EcoCute ¥3.000–¥6.000/mês)</span></li>
-        <li class="flex items-start gap-3"><span class="mt-1">✅</span><span>Água quente estável para toda a família</span></li>
-        <li class="flex items-start gap-3"><span class="mt-1">✅</span><span>Seguro (sem chama), silencioso e ecológico (CO₂)</span></li>
-        <li class="flex items-start gap-3"><span class="mt-1">✅</span><span>Integração perfeita com energia solar</span></li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- Payments -->
   <section id="payments" class="py-12 md:py-16">
     <div class="max-w-6xl mx-auto px-4">
       <h2 id="payTitle" class="text-2xl md:text-3xl font-extrabold tracking-tight text-neutral-900">Pagamentos aceitos</h2>
       <div class="mt-6 flex flex-wrap gap-2 items-center">
-        <img src="assets/bank.svg" alt="Financiamento bancário" class="h-8 bg-white p-2 rounded-xl border shadow-sm" />
-        <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Visa.svg" alt="VISA" class="h-8 bg-white p-2 rounded-xl border shadow-sm" />
-        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" alt="Mastercard" class="h-8 bg-white p-2 rounded-xl border shadow-sm" />
-        <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/JCB_logo.svg" alt="JCB" class="h-8 bg-white p-2 rounded-xl border shadow-sm" />
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/American_Express_logo.svg" alt="AMEX" class="h-8 bg-white p-2 rounded-xl border shadow-sm" />
-        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/PayPay_Logo.svg" alt="PayPay" class="h-8 bg-white p-2 rounded-xl border shadow-sm" />
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Dpay_logo.png" alt="d払い" class="h-8 bg-white p-2 rounded-xl border shadow-sm" />
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Au_PAY_logo.svg" alt="au PAY" class="h-8 bg-white p-2 rounded-xl border shadow-sm" />
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Merpay_logo_2019.png" alt="メルペイ" class="h-8 bg-white p-2 rounded-xl border shadow-sm" />
-        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/WeChat_Pay_logo.svg" alt="WeChat Pay" class="h-8 bg-white p-2 rounded-xl border shadow-sm" />
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Alipay_logo.svg" alt="Alipay" class="h-8 bg-white p-2 rounded-xl border shadow-sm" />
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/ID_logo.svg" alt="iD" class="h-8 bg-white p-2 rounded-xl border shadow-sm" />
-        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/QUICPay_logo.svg" alt="QUICPay" class="h-8 bg-white p-2 rounded-xl border shadow-sm" />
-      </div>
-    </div>
-  </section>
-
-  <!-- About -->
-  <section id="about" class="py-12 md:py-16 bg-neutral-50">
-    <div class="max-w-6xl mx-auto px-4">
-      <h2 id="aboutTitle" class="text-2xl md:text-3xl font-extrabold tracking-tight text-neutral-900">Quem somos</h2>
-      <p id="aboutBody" class="mt-6 text-neutral-700 leading-relaxed">
-        Empresa brasileira-japonesa em Iwata/Hamamatsu. Trabalhamos com segurança, qualidade e atendimento bilíngue (Português・日本語).
-      </p>
-    </div>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact" class="py-12 md:py-16">
-    <div class="max-w-6xl mx-auto px-4">
-      <h2 id="contactTitle" class="text-2xl md:text-3xl font-extrabold tracking-tight text-neutral-900">Contato</h2>
-      <div class="mt-6 grid md:grid-cols-2 gap-8">
-        <div class="space-y-3 text-neutral-700">
-          <div id="hours" class="font-semibold">Atendimento: Seg-Sáb 9:00–18:00</div>
-          <div>
-            <div id="addrLabel" class="text-sm text-neutral-500">Endereço</div>
-            <div>静岡県磐田市一色91-2</div>
-          </div>
-          <div>
-            <a href="tel:+818068892840" class="inline-block px-4 py-2 rounded-xl bg-emerald-600 text-white hover:bg-emerald-700">Ligar: 080-6889-2840</a>
-          </div>
-          <div>
-            <a href="https://wa.me/818068892840" class="inline-block px-4 py-2 rounded-xl border border-emerald-600 text-emerald-700 hover:bg-emerald-50">WhatsApp</a>
-          </div>
-        </div>
-        <form action="mailto:contato@shizenpower.jp" method="post" enctype="text/plain" class="rounded-2xl border p-6 shadow-sm space-y-4">
-          <div id="formTitle" class="text-lg font-semibold">Envie uma mensagem</div>
-          <div>
-            <label id="labelName" class="text-sm text-neutral-600">Seu nome</label>
-            <input required class="mt-1 w-full rounded-xl border px-3 py-2" name="name" />
-          </div>
-          <div>
-            <label id="labelPhone" class="text-sm text-neutral-600">Telefone/WhatsApp</label>
-            <input class="mt-1 w-full rounded-xl border px-3 py-2" name="phone" value="080-6889-2840" />
-          </div>
-          <div>
-            <label id="labelMsg" class="text-sm text-neutral-600">Mensagem</label>
-            <textarea required class="mt-1 w-full rounded-xl border px-3 py-2 h-28" name="message"></textarea>
-          </div>
-          <button id="sendBtn" class="px-4 py-2 rounded-xl bg-emerald-600 text-white hover:bg-emerald-700">Enviar por e-mail</button>
-          <p class="text-xs text-neutral-500">*Este formulário usa mailto:. Para formulário com backend, use Netlify Forms ou Formspree.</p>
-        </form>
+        <img src="./assets/bank.svg" alt="Financiamento bancário" class="h-8 bg-white p-2 rounded-xl border shadow-sm" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Visa.svg" alt="VISA" class="h-8 bg-white p-2 rounded-xl border shadow-sm" referrerpolicy="no-referrer" loading="lazy"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" alt="Mastercard" class="h-8 bg-white p-2 rounded-xl border shadow-sm" referrerpolicy="no-referrer" loading="lazy"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/JCB_logo.svg" alt="JCB" class="h-8 bg-white p-2 rounded-xl border shadow-sm" referrerpolicy="no-referrer" loading="lazy"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/American_Express_logo.svg" alt="AMEX" class="h-8 bg-white p-2 rounded-xl border shadow-sm" referrerpolicy="no-referrer" loading="lazy"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/PayPay_Logo.svg" alt="PayPay" class="h-8 bg-white p-2 rounded-xl border shadow-sm" referrerpolicy="no-referrer" loading="lazy"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Dpay_logo.png" alt="d払い" class="h-8 bg-white p-2 rounded-xl border shadow-sm" referrerpolicy="no-referrer" loading="lazy"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Au_PAY_logo.svg" alt="au PAY" class="h-8 bg-white p-2 rounded-xl border shadow-sm" referrerpolicy="no-referrer" loading="lazy"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Merpay_logo_2019.png" alt="メルペイ" class="h-8 bg-white p-2 rounded-xl border shadow-sm" referrerpolicy="no-referrer" loading="lazy"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/WeChat_Pay_logo.svg" alt="WeChat Pay" class="h-8 bg-white p-2 rounded-xl border shadow-sm" referrerpolicy="no-referrer" loading="lazy"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Alipay_logo.svg" alt="Alipay" class="h-8 bg-white p-2 rounded-xl border shadow-sm" referrerpolicy="no-referrer" loading="lazy"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/ID_logo.svg" alt="iD" class="h-8 bg-white p-2 rounded-xl border shadow-sm" referrerpolicy="no-referrer" loading="lazy"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/QUICPay_logo.svg" alt="QUICPay" class="h-8 bg-white p-2 rounded-xl border shadow-sm" referrerpolicy="no-referrer" loading="lazy"/>
       </div>
     </div>
   </section>
@@ -191,27 +125,8 @@
       svc2d: "Projetos sob medida, off-grid/on-grid, inversores híbridos e bancos de baterias.",
       svc3t: "Instalação de EcoCute",
       svc3d: "Substituição do gás por bomba de calor (CO₂). Economia de até 60% no aquecimento de água.",
-      ecoTitle: "Por que EcoCute?",
-      ecoBullets: [
-        "Até 60% mais barato que o gás (¥8.000–¥15.000 → EcoCute ¥3.000–¥6.000/mês)",
-        "Água quente estável para toda a família",
-        "Seguro (sem chama), silencioso e ecológico (CO₂)",
-        "Integração perfeita com energia solar"
-      ],
-      payTitle: "Pagamentos aceitos",
-      aboutTitle: "Quem somos",
-      aboutBody: "Empresa brasileira-japonesa em Iwata/Hamamatsu. Trabalhamos com segurança, qualidade e atendimento bilíngue (Português・日本語).",
-      contactTitle: "Contato",
-      hours: "Atendimento: Seg-Sáb 9:00–18:00",
-      addrLabel: "Endereço",
-      formTitle: "Envie uma mensagem",
-      labelName: "Seu nome",
-      labelPhone: "Telefone/WhatsApp",
-      labelMsg: "Mensagem",
-      sendBtn: "Enviar por e-mail",
-      footer: "© 2025 Shizen Power. Todos os direitos reservados."
+      payTitle: "Pagamentos aceitos"
     };
-
     const JA = {
       brandTag: "電気工事・太陽光・エコキュート",
       ctaCall: "今すぐ電話",
@@ -224,30 +139,11 @@
       svc2d: "オン/オフグリッド、ハイブリッドインバーター、蓄電池を含む設計施工。",
       svc3t: "エコキュート設置",
       svc3d: "ガスからCO₂ヒートポンプへ。給湯コスト最大60%削減。",
-      ecoTitle: "エコキュートのメリット",
-      ecoBullets: [
-        "ガスより最大60%安い（ガス¥8,000–¥15,000 → エコキュート¥3,000–¥6,000/月）",
-        "家族分の安定したお湯",
-        "安全・静音・環境配慮（CO₂冷媒）",
-        "太陽光との相性抜群"
-      ],
-      payTitle: "お支払い方法",
-      aboutTitle: "会社情報",
-      aboutBody: "磐田・浜松を中心に活動。安全・高品質・丁寧対応。ポルトガル語と日本語でご案内します。",
-      contactTitle: "お問い合わせ",
-      hours: "受付時間：月〜土 9:00–18:00",
-      addrLabel: "住所",
-      formTitle: "メッセージを送る",
-      labelName: "お名前",
-      labelPhone: "電話／WhatsApp",
-      labelMsg: "メッセージ",
-      sendBtn: "メールで送信",
-      footer: "© 2025 Shizen Power. All rights reserved."
+      payTitle: "お支払い方法"
     };
-
-    function setLang(lang) {
-      const t = lang === 'ja' ? JA : PT;
-      document.documentElement.lang = lang === 'ja' ? 'ja' : 'pt';
+    function setLang(lang){
+      const t = lang==='ja'? JA: PT;
+      document.documentElement.lang = lang==='ja'? 'ja': 'pt';
       document.getElementById('brandTag').textContent = t.brandTag;
       document.getElementById('ctaCall').textContent = t.ctaCall + " 080-6889-2840";
       document.getElementById('ctaCall2').textContent = t.ctaCall;
@@ -261,40 +157,18 @@
       document.getElementById('svc2d').textContent = t.svc2d;
       document.getElementById('svc3t').textContent = t.svc3t;
       document.getElementById('svc3d').textContent = t.svc3d;
-      document.getElementById('ecoTitle').textContent = t.ecoTitle;
-      const ecoList = document.getElementById('ecoList'); ecoList.innerHTML = '';
-      t.ecoBullets.forEach(b => {
-        const li = document.createElement('li');
-        li.className = 'flex items-start gap-3';
-        li.innerHTML = '<span class="mt-1">✅</span><span>'+b+'</span>';
-        ecoList.appendChild(li);
-      });
       document.getElementById('payTitle').textContent = t.payTitle;
-      document.getElementById('aboutTitle').textContent = t.aboutTitle;
-      document.getElementById('aboutBody').textContent = t.aboutBody;
-      document.getElementById('contactTitle').textContent = t.contactTitle;
-      document.getElementById('hours').textContent = t.hours;
-      document.getElementById('addrLabel').textContent = t.addrLabel;
-      document.getElementById('formTitle').textContent = t.formTitle;
-      document.getElementById('labelName').textContent = t.labelName;
-      document.getElementById('labelPhone').textContent = t.labelPhone;
-      document.getElementById('labelMsg').textContent = t.labelMsg;
-      document.getElementById('sendBtn').textContent = t.sendBtn;
-      document.getElementById('footerText').textContent = t.footer;
     }
-
-    document.getElementById('btnPT').addEventListener('click', () => {
-      document.getElementById('btnPT').className = 'px-3 py-1 text-sm bg-emerald-600 text-white';
-      document.getElementById('btnJA').className = 'px-3 py-1 text-sm bg-white text-neutral-700 hover:bg-neutral-50';
+    document.getElementById('btnPT').addEventListener('click', ()=>{
+      document.getElementById('btnPT').className='px-3 py-1 text-sm bg-emerald-600 text-white';
+      document.getElementById('btnJA').className='px-3 py-1 text-sm bg-white text-neutral-700 hover:bg-neutral-50';
       setLang('pt');
     });
-
-    document.getElementById('btnJA').addEventListener('click', () => {
-      document.getElementById('btnJA').className = 'px-3 py-1 text-sm bg-emerald-600 text-white';
-      document.getElementById('btnPT').className = 'px-3 py-1 text-sm bg-white text-neutral-700 hover:bg-neutral-50';
+    document.getElementById('btnJA').addEventListener('click', ()=>{
+      document.getElementById('btnJA').className='px-3 py-1 text-sm bg-emerald-600 text-white';
+      document.getElementById('btnPT').className='px-3 py-1 text-sm bg-white text-neutral-700 hover:bg-neutral-50';
       setLang('ja');
     });
-
     setLang('pt');
   </script>
 </body>
