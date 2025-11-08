@@ -4,14 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Shizen Power | Energia • Elétrica • EcoCute</title>
-  <meta name="description" content="Elétrica residencial, instalação de painel solar e EcoCute em Shizuoka (Iwata/Hamamatsu). Atendimento bilíngue (Português・日本語).">
+  <meta name="description" content="Elétrica residencial, Instalação de Painel Solar e EcoCute em Shizuoka (Iwata/Hamamatsu).">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="min-h-screen bg-white text-neutral-800">
+  <!-- Top bar -->
   <header class="sticky top-0 z-40 backdrop-blur border-b border-neutral-200/70 bg-white/80">
     <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-      <a href="#" class="flex items-center gap-3">
+      <a href="#home" class="flex items-center gap-3">
         <div class="h-10 w-10 rounded-xl bg-emerald-600 text-white grid place-items-center font-bold">SP</div>
         <div>
           <div class="font-extrabold text-emerald-700 text-lg leading-tight">Shizen Power</div>
@@ -29,10 +30,11 @@
     </div>
   </header>
 
-  <section class="relative">
+  <!-- Hero -->
+  <section id="home" class="relative">
     <div class="max-w-6xl mx-auto px-4 py-12 md:py-16 grid md:grid-cols-2 gap-10 items-center">
       <div>
-        <h1 class="text-4xl md:text-6xl font-extrabold text-emerald-700 tracking-tight">Shizen Power</h1>
+        <h1 id="heroTitle" class="text-4xl md:text-6xl font-extrabold text-emerald-700 tracking-tight">Shizen Power</h1>
         <p id="heroSubtitle" class="mt-4 text-lg md:text-xl text-neutral-600">Elétrica residencial, Instalação de Painel Solar e EcoCute em Shizuoka</p>
         <div class="mt-6 flex flex-wrap gap-3">
           <a href="https://wa.me/818068892840" id="ctaQuote" class="px-5 py-3 rounded-2xl bg-emerald-600 text-white hover:bg-emerald-700 shadow">Pedir orçamento</a>
@@ -41,35 +43,39 @@
         <div class="mt-4 text-sm text-neutral-500">静岡県磐田市一色91-2 • 080-6889-2840</div>
       </div>
       <div class="grid grid-cols-3 gap-4">
-        <div class="rounded-2xl border p-6 text-center shadow-sm">
-          <div class="text-4xl">💡</div>
+        <div class="rounded-2xl border p-4 text-center shadow-sm">
+          <img src="assets/electric.svg" alt="Elétrica" class="h-16 mx-auto">
           <div id="pill1" class="mt-2 font-semibold">Elétrica</div>
         </div>
-        <div class="rounded-2xl border p-6 text-center shadow-sm">
-          <div class="text-4xl">☀️</div>
+        <div class="rounded-2xl border p-4 text-center shadow-sm">
+          <img src="assets/solar.svg" alt="Solar" class="h-16 mx-auto">
           <div id="pill2" class="mt-2 font-semibold">Solar</div>
         </div>
-        <div class="rounded-2xl border p-6 text-center shadow-sm">
-          <div class="text-4xl">💧</div>
+        <div class="rounded-2xl border p-4 text-center shadow-sm">
+          <img src="assets/eco.svg" alt="EcoCute" class="h-16 mx-auto">
           <div class="mt-2 font-semibold">EcoCute</div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="py-12 md:py-16">
+  <!-- Services -->
+  <section id="services" class="py-12 md:py-16">
     <div class="max-w-6xl mx-auto px-4">
       <h2 id="servicesTitle" class="text-2xl md:text-3xl font-extrabold tracking-tight text-neutral-900">Serviços</h2>
       <div class="mt-6 grid md:grid-cols-3 gap-6">
         <div class="rounded-2xl border p-6 shadow-sm hover:shadow-md transition">
+          <img src="assets/electric.svg" alt="Elétrica residencial" class="h-20 mx-auto mb-4">
           <div class="text-emerald-600 text-xl font-bold" id="svc1t">Elétrica residencial</div>
           <p id="svc1d" class="mt-2 text-sm text-neutral-600 leading-relaxed">Instalação, manutenção, quadros de disjuntores, iluminação, tomadas 100V/200V e V2H.</p>
         </div>
         <div class="rounded-2xl border p-6 shadow-sm hover:shadow-md transition">
+          <img src="assets/solar.svg" alt="Instalação de Painel Solar" class="h-20 mx-auto mb-4">
           <div class="text-emerald-600 text-xl font-bold" id="svc2t">Instalação de Painel Solar</div>
           <p id="svc2d" class="mt-2 text-sm text-neutral-600 leading-relaxed">Projetos sob medida, off-grid/on-grid, inversores híbridos e bancos de baterias.</p>
         </div>
         <div class="rounded-2xl border p-6 shadow-sm hover:shadow-md transition">
+          <img src="assets/eco.svg" alt="Instalação de EcoCute" class="h-20 mx-auto mb-4">
           <div class="text-emerald-600 text-xl font-bold" id="svc3t">Instalação de EcoCute</div>
           <p id="svc3d" class="mt-2 text-sm text-neutral-600 leading-relaxed">Substituição do gás por bomba de calor (CO₂). Economia de até 60% no aquecimento de água.</p>
         </div>
@@ -77,7 +83,8 @@
     </div>
   </section>
 
-  <section class="py-12 md:py-16 bg-neutral-50">
+  <!-- EcoCute benefits -->
+  <section id="ecocute" class="py-12 md:py-16 bg-neutral-50">
     <div class="max-w-6xl mx-auto px-4">
       <h2 id="ecoTitle" class="text-2xl md:text-3xl font-extrabold tracking-tight text-neutral-900">Por que EcoCute?</h2>
       <ul id="ecoList" class="mt-6 space-y-3 text-neutral-700">
@@ -89,28 +96,30 @@
     </div>
   </section>
 
-  <section class="py-12 md:py-16">
+  <!-- Payments -->
+  <section id="payments" class="py-12 md:py-16">
     <div class="max-w-6xl mx-auto px-4">
       <h2 id="payTitle" class="text-2xl md:text-3xl font-extrabold tracking-tight text-neutral-900">Pagamentos aceitos</h2>
-      <div class="mt-6 flex flex-wrap gap-2">
-        <span class="px-3 py-2 rounded-xl border text-sm bg-white shadow-sm">Financiamento bancário</span>
-        <span class="px-3 py-2 rounded-xl border text-sm bg-white shadow-sm">VISA</span>
-        <span class="px-3 py-2 rounded-xl border text-sm bg-white shadow-sm">Mastercard</span>
-        <span class="px-3 py-2 rounded-xl border text-sm bg-white shadow-sm">JCB</span>
-        <span class="px-3 py-2 rounded-xl border text-sm bg-white shadow-sm">AMEX</span>
-        <span class="px-3 py-2 rounded-xl border text-sm bg-white shadow-sm">PayPay</span>
-        <span class="px-3 py-2 rounded-xl border text-sm bg-white shadow-sm">d払い</span>
-        <span class="px-3 py-2 rounded-xl border text-sm bg-white shadow-sm">au PAY</span>
-        <span class="px-3 py-2 rounded-xl border text-sm bg-white shadow-sm">メルペイ</span>
-        <span class="px-3 py-2 rounded-xl border text-sm bg-white shadow-sm">WeChat Pay</span>
-        <span class="px-3 py-2 rounded-xl border text-sm bg-white shadow-sm">Alipay</span>
-        <span class="px-3 py-2 rounded-xl border text-sm bg-white shadow-sm">iD</span>
-        <span class="px-3 py-2 rounded-xl border text-sm bg-white shadow-sm">QUICPay</span>
+      <div class="mt-6 flex flex-wrap gap-2 items-center">
+        <img src="assets/bank.svg" alt="Financiamento bancário" class="h-8 bg-white p-2 rounded-xl border shadow-sm" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Visa.svg" alt="VISA" class="h-8 bg-white p-2 rounded-xl border shadow-sm" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" alt="Mastercard" class="h-8 bg-white p-2 rounded-xl border shadow-sm" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/JCB_logo.svg" alt="JCB" class="h-8 bg-white p-2 rounded-xl border shadow-sm" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/American_Express_logo.svg" alt="AMEX" class="h-8 bg-white p-2 rounded-xl border shadow-sm" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/PayPay_Logo.svg" alt="PayPay" class="h-8 bg-white p-2 rounded-xl border shadow-sm" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Dpay_logo.png" alt="d払い" class="h-8 bg-white p-2 rounded-xl border shadow-sm" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Au_PAY_logo.svg" alt="au PAY" class="h-8 bg-white p-2 rounded-xl border shadow-sm" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Merpay_logo_2019.png" alt="メルペイ" class="h-8 bg-white p-2 rounded-xl border shadow-sm" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/WeChat_Pay_logo.svg" alt="WeChat Pay" class="h-8 bg-white p-2 rounded-xl border shadow-sm" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Alipay_logo.svg" alt="Alipay" class="h-8 bg-white p-2 rounded-xl border shadow-sm" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/ID_logo.svg" alt="iD" class="h-8 bg-white p-2 rounded-xl border shadow-sm" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/QUICPay_logo.svg" alt="QUICPay" class="h-8 bg-white p-2 rounded-xl border shadow-sm" />
       </div>
     </div>
   </section>
 
-  <section class="py-12 md:py-16 bg-neutral-50">
+  <!-- About -->
+  <section id="about" class="py-12 md:py-16 bg-neutral-50">
     <div class="max-w-6xl mx-auto px-4">
       <h2 id="aboutTitle" class="text-2xl md:text-3xl font-extrabold tracking-tight text-neutral-900">Quem somos</h2>
       <p id="aboutBody" class="mt-6 text-neutral-700 leading-relaxed">
@@ -119,7 +128,8 @@
     </div>
   </section>
 
-  <section class="py-12 md:py-16">
+  <!-- Contact -->
+  <section id="contact" class="py-12 md:py-16">
     <div class="max-w-6xl mx-auto px-4">
       <h2 id="contactTitle" class="text-2xl md:text-3xl font-extrabold tracking-tight text-neutral-900">Contato</h2>
       <div class="mt-6 grid md:grid-cols-2 gap-8">
