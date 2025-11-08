@@ -7,6 +7,10 @@
   <meta name="description" content="Elétrica residencial, Instalação de Painel Solar e EcoCute em Shizuoka (Iwata/Hamamatsu).">
   <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Padroniza tamanho dos logos */
+    #payments img { height: 40px; width: auto; object-fit: contain; }
+  </style>
 </head>
 <body class="min-h-screen bg-white text-neutral-800">
 
@@ -54,6 +58,7 @@
     </div>
   </section>
 
+  <!-- Serviços -->
   <section class="py-12 md:py-16">
     <div class="max-w-6xl mx-auto px-4">
       <h2 class="text-2xl md:text-3xl font-extrabold tracking-tight text-neutral-900">Serviços</h2>
@@ -77,62 +82,61 @@
     </div>
   </section>
 
-  
-<section id="payments" class="py-12 md:py-16">
-  <div class="max-w-6xl mx-auto px-4">
-    <h2 class="text-2xl md:text-3xl font-extrabold tracking-tight text-neutral-900">Pagamentos aceitos</h2>
+  <!-- Pagamentos - 4 linhas com logos da internet -->
+  <section id="payments" class="py-12 md:py-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl md:text-3xl font-extrabold tracking-tight text-neutral-900">Pagamentos aceitos</h2>
 
-    <div class="space-y-8 mt-6">
+      <div class="space-y-10 mt-6">
 
-      <div>
-        <h3 class="font-bold text-lg mb-3">Financiamento bancário</h3>
-        <div class="flex flex-wrap gap-3 items-center">
-          <img src="./assets/bank.svg" alt="Financiamento bancário" class="h-10 bg-white p-2 rounded-xl border shadow-sm" />
+        <div>
+          <h3 class="font-bold text-lg mb-3">Financiamento bancário</h3>
+          <div class="flex flex-wrap gap-3 items-center">
+            <img src="./assets/bank.svg" alt="Financiamento bancário" class="h-10 p-2 rounded-xl border bg-white shadow-sm" />
+          </div>
         </div>
-      </div>
 
-      <div>
-        <h3 class="font-bold text-lg mb-3">クレジットカード</h3>
-        <div class="flex flex-wrap gap-3 items-center">
-          <img src="./assets/payments/visa.svg" alt="VISA" class="h-10 bg-white p-2 rounded-xl border shadow-sm"/>
-          <img src="./assets/payments/mastercard.svg" alt="Mastercard" class="h-10 bg-white p-2 rounded-xl border shadow-sm"/>
-          <img src="./assets/payments/jcb.svg" alt="JCB" class="h-10 bg-white p-2 rounded-xl border shadow-sm"/>
-          <img src="./assets/payments/amex.svg" alt="AMEX" class="h-10 bg-white p-2 rounded-xl border shadow-sm"/>
-          <img src="./assets/payments/diners.svg" alt="Diners Club" class="h-10 bg-white p-2 rounded-xl border shadow-sm"/>
-          <img src="./assets/payments/discover.svg" alt="Discover" class="h-10 bg-white p-2 rounded-xl border shadow-sm"/>
+        <div>
+          <h3 class="font-bold text-lg mb-3">クレジットカード</h3>
+          <div class="flex flex-wrap gap-3 items-center">
+            <img referrerpolicy="no-referrer" src="https://upload.wikimedia.org/wikipedia/commons/0/04/Visa.svg" class="h-10 p-2 rounded-xl border bg-white shadow-sm" alt="VISA"/>
+            <img referrerpolicy="no-referrer" src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" class="h-10 p-2 rounded-xl border bg-white shadow-sm" alt="Mastercard"/>
+            <img referrerpolicy="no-referrer" src="https://upload.wikimedia.org/wikipedia/commons/0/02/JCB_logo.svg" class="h-10 p-2 rounded-xl border bg-white shadow-sm" alt="JCB"/>
+            <img referrerpolicy="no-referrer" src="https://upload.wikimedia.org/wikipedia/commons/3/30/American_Express_logo.svg" class="h-10 p-2 rounded-xl border bg-white shadow-sm" alt="AMEX"/>
+            <img referrerpolicy="no-referrer" src="https://upload.wikimedia.org/wikipedia/commons/1/16/Diners_Club_Logo3.svg" class="h-10 p-2 rounded-xl border bg-white shadow-sm" alt="Diners Club"/>
+            <img referrerpolicy="no-referrer" src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Discover_Card_logo.svg" class="h-10 p-2 rounded-xl border bg-white shadow-sm" alt="Discover"/>
+          </div>
         </div>
-      </div>
 
-      <div>
-        <h3 class="font-bold text-lg mb-3">電子マネー</h3>
-        <div class="flex flex-wrap gap-3 items-center">
-          <img src="./assets/payments/id.svg" alt="iD" class="h-10 bg-white p-2 rounded-xl border shadow-sm"/>
-          <img src="./assets/payments/quicpay.svg" alt="QUICPay" class="h-10 bg-white p-2 rounded-xl border shadow-sm"/>
-          <img src="./assets/payments/waon.svg" alt="WAON" class="h-10 bg-white p-2 rounded-xl border shadow-sm"/>
-          <img src="./assets/payments/nanaco.svg" alt="nanaco" class="h-10 bg-white p-2 rounded-xl border shadow-sm"/>
-          <img src="./assets/payments/edy.svg" alt="Edy" class="h-10 bg-white p-2 rounded-xl border shadow-sm"/>
-          <img src="./assets/payments/pasmo.svg" alt="PASMO" class="h-10 bg-white p-2 rounded-xl border shadow-sm"/>
-          <img src="./assets/payments/suica.svg" alt="Suica" class="h-10 bg-white p-2 rounded-xl border shadow-sm"/>
-          <img src="./assets/payments/icoca.svg" alt="ICOCA" className="h-10 bg-white p-2 rounded-xl border shadow-sm"/>
+        <div>
+          <h3 class="font-bold text-lg mb-3">電子マネー</h3>
+          <div class="flex flex-wrap gap-3 items-center">
+            <img referrerpolicy="no-referrer" src="https://upload.wikimedia.org/wikipedia/commons/6/6f/ID_logo.svg" class="h-10 p-2 rounded-xl border bg-white shadow-sm" alt="iD"/>
+            <img referrerpolicy="no-referrer" src="https://upload.wikimedia.org/wikipedia/commons/5/5b/QUICPay_logo.svg" class="h-10 p-2 rounded-xl border bg-white shadow-sm" alt="QUICPay"/>
+            <img referrerpolicy="no-referrer" src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Waon_logo.svg" class="h-10 p-2 rounded-xl border bg-white shadow-sm" alt="WAON"/>
+            <img referrerpolicy="no-referrer" src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Nanaco_logo.svg" class="h-10 p-2 rounded-xl border bg-white shadow-sm" alt="nanaco"/>
+            <img referrerpolicy="no-referrer" src="https://upload.wikimedia.org/wikipedia/commons/9/93/Edy_logo.png" class="h-10 p-2 rounded-xl border bg-white shadow-sm" alt="Edy"/>
+            <img referrerpolicy="no-referrer" src="https://upload.wikimedia.org/wikipedia/commons/1/17/PASMO_logo.svg" class="h-10 p-2 rounded-xl border bg-white shadow-sm" alt="PASMO"/>
+            <img referrerpolicy="no-referrer" src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Suica_logo.svg" class="h-10 p-2 rounded-xl border bg-white shadow-sm" alt="Suica"/>
+            <img referrerpolicy="no-referrer" src="https://upload.wikimedia.org/wikipedia/commons/9/9e/ICOCA_logo.svg" class="h-10 p-2 rounded-xl border bg-white shadow-sm" alt="ICOCA"/>
+          </div>
         </div>
-      </div>
 
-      <div>
-        <h3 class="font-bold text-lg mb-3">QR・バーコード決済</h3>
-        <div class="flex flex-wrap gap-3 items-center">
-          <img src="./assets/payments/paypay.svg" alt="PayPay" class="h-10 bg-white p-2 rounded-xl border shadow-sm"/>
-          <img src="./assets/payments/dbarai.svg" alt="d払い" class="h-10 bg-white p-2 rounded-xl border shadow-sm"/>
-          <img src="./assets/payments/aupay.svg" alt="au PAY" class="h-10 bg-white p-2 rounded-xl border shadow-sm"/>
-          <img src="./assets/payments/merpay.svg" alt="メルペイ" class="h-10 bg-white p-2 rounded-xl border shadow-sm"/>
-          <img src="./assets/payments/wechatpay.svg" alt="WeChat Pay" class="h-10 bg-white p-2 rounded-xl border shadow-sm"/>
-          <img src="./assets/payments/alipay.svg" alt="Alipay" class="h-10 bg-white p-2 rounded-xl border shadow-sm"/>
+        <div>
+          <h3 class="font-bold text-lg mb-3">QR・バーコード決済</h3>
+          <div class="flex flex-wrap gap-3 items-center">
+            <img referrerpolicy="no-referrer" src="https://upload.wikimedia.org/wikipedia/commons/5/5f/PayPay_Logo.svg" class="h-10 p-2 rounded-xl border bg-white shadow-sm" alt="PayPay"/>
+            <img referrerpolicy="no-referrer" src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Dpay_logo.png" class="h-10 p-2 rounded-xl border bg-white shadow-sm" alt="d払い"/>
+            <img referrerpolicy="no-referrer" src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Au_PAY_logo.svg" class="h-10 p-2 rounded-xl border bg-white shadow-sm" alt="au PAY"/>
+            <img referrerpolicy="no-referrer" src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Merpay_logo_2019.png" class="h-10 p-2 rounded-xl border bg-white shadow-sm" alt="メルペイ"/>
+            <img referrerpolicy="no-referrer" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/WeChat_Pay_logo.svg" class="h-10 p-2 rounded-xl border bg-white shadow-sm" alt="WeChat Pay"/>
+            <img referrerpolicy="no-referrer" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Alipay_logo.svg" class="h-10 p-2 rounded-xl border bg-white shadow-sm" alt="Alipay"/>
+          </div>
         </div>
-      </div>
 
+      </div>
     </div>
-  </div>
-</section>
-
+  </section>
 
   <footer class="mt-16 border-t bg-neutral-50">
     <div class="max-w-6xl mx-auto px-4 py-8 text-sm text-neutral-600 flex flex-col md:flex-row items-center justify-between gap-3">
