@@ -3,87 +3,288 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Shizen Power</title>
+  <title>Shizen Power | Energia • Elétrica • EcoCute</title>
+  <meta name="description" content="Elétrica residencial, Instalação de Painel Solar e EcoCute em Shizuoka (Iwata/Hamamatsu).">
   <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
   <script src="https://cdn.tailwindcss.com"></script>
-  <style>#payments img{height:40px;width:auto;object-fit:contain}</style>
 </head>
 <body class="min-h-screen bg-white text-neutral-800">
-<header class="sticky top-0 z-40 backdrop-blur border-b border-neutral-200/70 bg-white/80">
-  <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-    <div class="flex items-center gap-3">
-      <div class="h-10 w-10 rounded-xl bg-emerald-600 text-white grid place-items-center font-bold">SP</div>
-      <div>
-        <div class="font-extrabold text-emerald-700 text-lg leading-tight">Shizen Power</div>
-        <div class="text-xs text-neutral-500">Energia • Elétrica • EcoCute</div>
-      </div>
-    </div>
-    <div class="flex items-center gap-2">
-      <a href="https://wa.me/818068892840" class="hidden md:inline-block px-3 py-2 rounded-xl border border-emerald-600 text-emerald-700 hover:bg-emerald-50">WhatsApp</a>
-      <a href="tel:+818068892840" class="hidden md:inline-block px-3 py-2 rounded-xl bg-emerald-600 text-white hover:bg-emerald-700">Ligar agora 080-6889-2840</a>
-    </div>
-  </div>
-</header>
-<section class="relative">
-  <div class="max-w-6xl mx-auto px-4 py-12 grid md:grid-cols-3 gap-4">
-    <div class="rounded-2xl border p-4 text-center shadow-sm">
-      <img src="./assets/electric.svg" alt="Elétrica" class="h-16 mx-auto"><div class="mt-2 font-semibold">Elétrica</div>
-    </div>
-    <div class="rounded-2xl border p-4 text-center shadow-sm">
-      <img src="./assets/solar.svg" alt="Solar" class="h-16 mx-auto"><div class="mt-2 font-semibold">Solar</div>
-    </div>
-    <div class="rounded-2xl border p-4 text-center shadow-sm">
-      <img src="./assets/eco.svg" alt="EcoCute" class="h-16 mx-auto"><div class="mt-2 font-semibold">EcoCute</div>
-    </div>
-  </div>
-</section>
-
-<section id="payments" class="py-12 md:py-16">
-  <div class="max-w-6xl mx-auto px-4">
-    <h2 class="text-2xl md:text-3xl font-extrabold tracking-tight text-neutral-900">Pagamentos aceitos</h2>
-    <div class="space-y-10 mt-6">
-      <div>
-        <h3 class="font-bold text-lg mb-3">Financiamento bancário</h3>
-        <div class="flex flex-wrap gap-3 items-center">
-          <img src="./assets/payments/visa.svg" alt="Bank" class="h-10 p-2 rounded-xl border bg-white shadow-sm"/>
+  <header class="sticky top-0 z-40 backdrop-blur border-b border-neutral-200/70 bg-white/80">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="h-10 w-10 rounded-xl bg-emerald-600 text-white grid place-items-center font-bold">SP</div>
+        <div>
+          <div class="font-extrabold text-emerald-700 text-lg leading-tight">Shizen Power</div>
+          <div id="brandTag" class="text-xs text-neutral-500">Energia • Elétrica • EcoCute</div>
         </div>
       </div>
-      <div>
-<h3 class="font-bold text-lg mb-3">クレジットカード</h3>
-<div class="flex flex-wrap gap-3 items-center"><img alt="VISA" src="https://upload.wikimedia.org/wikipedia/commons/0/04/Visa.svg" referrerpolicy="no-referrer" crossorigin="anonymous" loading="lazy" decoding="async" class="h-10 p-2 rounded-xl border bg-white shadow-sm" onerror="this.onerror=null;this.src='./assets/payments/visa.svg';" />
-<img alt="Mastercard" src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" referrerpolicy="no-referrer" crossorigin="anonymous" loading="lazy" decoding="async" class="h-10 p-2 rounded-xl border bg-white shadow-sm" onerror="this.onerror=null;this.src='./assets/payments/mastercard.svg';" />
-<img alt="JCB" src="https://upload.wikimedia.org/wikipedia/commons/0/02/JCB_logo.svg" referrerpolicy="no-referrer" crossorigin="anonymous" loading="lazy" decoding="async" class="h-10 p-2 rounded-xl border bg-white shadow-sm" onerror="this.onerror=null;this.src='./assets/payments/jcb.svg';" />
-<img alt="AMEX" src="https://upload.wikimedia.org/wikipedia/commons/3/30/American_Express_logo.svg" referrerpolicy="no-referrer" crossorigin="anonymous" loading="lazy" decoding="async" class="h-10 p-2 rounded-xl border bg-white shadow-sm" onerror="this.onerror=null;this.src='./assets/payments/amex.svg';" />
-<img alt="Diners Club" src="https://upload.wikimedia.org/wikipedia/commons/1/16/Diners_Club_Logo3.svg" referrerpolicy="no-referrer" crossorigin="anonymous" loading="lazy" decoding="async" class="h-10 p-2 rounded-xl border bg-white shadow-sm" onerror="this.onerror=null;this.src='./assets/payments/diners.svg';" />
-<img alt="Discover" src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Discover_Card_logo.svg" referrerpolicy="no-referrer" crossorigin="anonymous" loading="lazy" decoding="async" class="h-10 p-2 rounded-xl border bg-white shadow-sm" onerror="this.onerror=null;this.src='./assets/payments/discover.svg';" /></div>
-</div>
-      <div>
-<h3 class="font-bold text-lg mb-3">電子マネー</h3>
-<div class="flex flex-wrap gap-3 items-center"><img alt="iD" src="https://upload.wikimedia.org/wikipedia/commons/6/6f/ID_logo.svg" referrerpolicy="no-referrer" crossorigin="anonymous" loading="lazy" decoding="async" class="h-10 p-2 rounded-xl border bg-white shadow-sm" onerror="this.onerror=null;this.src='./assets/payments/id.svg';" />
-<img alt="QUICPay" src="https://upload.wikimedia.org/wikipedia/commons/5/5b/QUICPay_logo.svg" referrerpolicy="no-referrer" crossorigin="anonymous" loading="lazy" decoding="async" class="h-10 p-2 rounded-xl border bg-white shadow-sm" onerror="this.onerror=null;this.src='./assets/payments/quicpay.svg';" />
-<img alt="WAON" src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Waon_logo.svg" referrerpolicy="no-referrer" crossorigin="anonymous" loading="lazy" decoding="async" class="h-10 p-2 rounded-xl border bg-white shadow-sm" onerror="this.onerror=null;this.src='./assets/payments/waon.svg';" />
-<img alt="nanaco" src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Nanaco_logo.svg" referrerpolicy="no-referrer" crossorigin="anonymous" loading="lazy" decoding="async" class="h-10 p-2 rounded-xl border bg-white shadow-sm" onerror="this.onerror=null;this.src='./assets/payments/nanaco.svg';" />
-<img alt="Edy" src="https://upload.wikimedia.org/wikipedia/commons/9/93/Edy_logo.png" referrerpolicy="no-referrer" crossorigin="anonymous" loading="lazy" decoding="async" class="h-10 p-2 rounded-xl border bg-white shadow-sm" onerror="this.onerror=null;this.src='./assets/payments/edy.svg';" />
-<img alt="PASMO" src="https://upload.wikimedia.org/wikipedia/commons/1/17/PASMO_logo.svg" referrerpolicy="no-referrer" crossorigin="anonymous" loading="lazy" decoding="async" class="h-10 p-2 rounded-xl border bg-white shadow-sm" onerror="this.onerror=null;this.src='./assets/payments/pasmo.svg';" />
-<img alt="Suica" src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Suica_logo.svg" referrerpolicy="no-referrer" crossorigin="anonymous" loading="lazy" decoding="async" class="h-10 p-2 rounded-xl border bg-white shadow-sm" onerror="this.onerror=null;this.src='./assets/payments/suica.svg';" />
-<img alt="ICOCA" src="https://upload.wikimedia.org/wikipedia/commons/9/9e/ICOCA_logo.svg" referrerpolicy="no-referrer" crossorigin="anonymous" loading="lazy" decoding="async" class="h-10 p-2 rounded-xl border bg-white shadow-sm" onerror="this.onerror=null;this.src='./assets/payments/icoca.svg';" /></div>
-</div>
-      <div>
-<h3 class="font-bold text-lg mb-3">QR・バーコード決済</h3>
-<div class="flex flex-wrap gap-3 items-center"><img alt="PayPay" src="https://upload.wikimedia.org/wikipedia/commons/5/5f/PayPay_Logo.svg" referrerpolicy="no-referrer" crossorigin="anonymous" loading="lazy" decoding="async" class="h-10 p-2 rounded-xl border bg-white shadow-sm" onerror="this.onerror=null;this.src='./assets/payments/paypay.svg';" />
-<img alt="d払い" src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Dpay_logo.png" referrerpolicy="no-referrer" crossorigin="anonymous" loading="lazy" decoding="async" class="h-10 p-2 rounded-xl border bg-white shadow-sm" onerror="this.onerror=null;this.src='./assets/payments/dbarai.svg';" />
-<img alt="au PAY" src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Au_PAY_logo.svg" referrerpolicy="no-referrer" crossorigin="anonymous" loading="lazy" decoding="async" class="h-10 p-2 rounded-xl border bg-white shadow-sm" onerror="this.onerror=null;this.src='./assets/payments/aupay.svg';" />
-<img alt="メルペイ" src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Merpay_logo_2019.png" referrerpolicy="no-referrer" crossorigin="anonymous" loading="lazy" decoding="async" class="h-10 p-2 rounded-xl border bg-white shadow-sm" onerror="this.onerror=null;this.src='./assets/payments/merpay.svg';" />
-<img alt="WeChat Pay" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/WeChat_Pay_logo.svg" referrerpolicy="no-referrer" crossorigin="anonymous" loading="lazy" decoding="async" class="h-10 p-2 rounded-xl border bg-white shadow-sm" onerror="this.onerror=null;this.src='./assets/payments/wechatpay.svg';" />
-<img alt="Alipay" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Alipay_logo.svg" referrerpolicy="no-referrer" crossorigin="anonymous" loading="lazy" decoding="async" class="h-10 p-2 rounded-xl border bg-white shadow-sm" onerror="this.onerror=null;this.src='./assets/payments/alipay.svg';" /></div>
-</div>
+      <div class="flex items-center gap-2">
+        <a href="https://wa.me/818068892840" class="hidden md:inline-block px-3 py-2 rounded-xl border border-emerald-600 text-emerald-700 hover:bg-emerald-50">WhatsApp</a>
+        <a href="tel:+818068892840" id="ctaCallTop" class="hidden md:inline-block px-3 py-2 rounded-xl bg-emerald-600 text-white hover:bg-emerald-700">Ligar agora 080-6889-2840</a>
+        <div class="inline-flex rounded-xl border overflow-hidden">
+          <button id="btnPT" class="px-3 py-1 text-sm bg-emerald-600 text-white">PT</button>
+          <button id="btnJA" class="px-3 py-1 text-sm bg-white text-neutral-700 hover:bg-neutral-50">日本語</button>
+        </div>
+      </div>
     </div>
-  </div>
-</section>
-<footer class="mt-16 border-t bg-neutral-50">
-  <div class="max-w-6xl mx-auto px-4 py-8 text-sm text-neutral-600 flex flex-col md:flex-row items-center justify-between gap-3">
-    <div>© 2025 Shizen Power. Todos os direitos reservados.</div>
-    <div class="flex items-center gap-3"><a href="tel:+818068892840" class="hover:underline">080-6889-2840</a><span class="text-neutral-400">|</span><a href="https://wa.me/818068892840" class="hover:underline">WhatsApp</a></div>
-  </div>
-</footer>
-</body></html>
+  </header>
+
+  <section class="relative">
+    <div class="max-w-6xl mx-auto px-4 py-12 md:py-16 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class="text-4xl md:text-6xl font-extrabold text-emerald-700 tracking-tight">Shizen Power</h1>
+        <p id="heroSubtitle" class="mt-4 text-lg md:text-xl text-neutral-600">Elétrica residencial, Instalação de Painel Solar e EcoCute em Shizuoka</p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="https://wa.me/818068892840" id="ctaQuote" class="px-5 py-3 rounded-2xl bg-emerald-600 text-white hover:bg-emerald-700 shadow">Pedir orçamento</a>
+          <a href="tel:+818068892840" id="ctaCall" class="px-5 py-3 rounded-2xl border border-neutral-300 hover:bg-neutral-50">Ligar agora</a>
+        </div>
+        <div class="mt-4 text-sm text-neutral-500">静岡県磐田市一色91-2 • 080-6889-2840</div>
+      </div>
+      <div class="grid grid-cols-3 gap-4">
+        <div class="rounded-2xl border p-6 text-center shadow-sm">
+          <img src="./assets/electric.svg" alt="Elétrica" class="h-16 mx-auto">
+          <div id="pill1" class="mt-2 font-semibold">Elétrica</div>
+        </div>
+        <div class="rounded-2xl border p-6 text-center shadow-sm">
+          <img src="./assets/solar.svg" alt="Solar" class="h-16 mx-auto">
+          <div id="pill2" class="mt-2 font-semibold">Solar</div>
+        </div>
+        <div class="rounded-2xl border p-6 text-center shadow-sm">
+          <img src="./assets/eco.svg" alt="EcoCute" class="h-16 mx-auto">
+          <div class="mt-2 font-semibold">EcoCute</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-12 md:py-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 id="servicesTitle" class="text-2xl md:text-3xl font-extrabold tracking-tight text-neutral-900">Serviços</h2>
+      <div class="mt-6 grid md:grid-cols-3 gap-6">
+        <div class="rounded-2xl border p-6 shadow-sm hover:shadow-md transition">
+          <img src="./assets/electric.svg" alt="Elétrica residencial" class="h-20 mx-auto mb-4">
+          <div id="svc1t" class="text-emerald-600 text-xl font-bold">Elétrica residencial</div>
+          <p id="svc1d" class="mt-2 text-sm text-neutral-600 leading-relaxed">Instalação, manutenção, quadros de disjuntores, iluminação, tomadas 100V/200V e V2H.</p>
+        </div>
+        <div class="rounded-2xl border p-6 shadow-sm hover:shadow-md transition">
+          <img src="./assets/solar.svg" alt="Instalação de Painel Solar" class="h-20 mx-auto mb-4">
+          <div id="svc2t" class="text-emerald-600 text-xl font-bold">Instalação de Painel Solar</div>
+          <p id="svc2d" class="mt-2 text-sm text-neutral-600 leading-relaxed">Projetos sob medida, off-grid/on-grid, inversores híbridos e bancos de baterias.</p>
+        </div>
+        <div class="rounded-2xl border p-6 shadow-sm hover:shadow-md transition">
+          <img src="./assets/eco.svg" alt="Instalação de EcoCute" class="h-20 mx-auto mb-4">
+          <div id="svc3t" class="text-emerald-600 text-xl font-bold">Instalação de EcoCute</div>
+          <p id="svc3d" class="mt-2 text-sm text-neutral-600 leading-relaxed">Substituição do gás por bomba de calor (CO₂). Economia de até 60% no aquecimento de água.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-12 md:py-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 id="ecoTitle" class="text-2xl md:text-3xl font-extrabold tracking-tight text-neutral-900">Por que EcoCute?</h2>
+      <ul id="ecoBullets" class="mt-6 space-y-3 text-neutral-700">
+        <li class="flex items-start gap-3"><span class="mt-1">✅</span><span>Até 60% mais barato que o gás (¥8.000–¥15.000 → EcoCute ¥3.000–¥6.000/mês)</span></li>
+        <li class="flex items-start gap-3"><span class="mt-1">✅</span><span>Água quente estável para toda a família</span></li>
+        <li class="flex items-start gap-3"><span class="mt-1">✅</span><span>Seguro (sem chama), silencioso e ecológico (CO₂)</span></li>
+        <li class="flex items-start gap-3"><span class="mt-1">✅</span><span>Integração perfeita com energia solar</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="py-12 md:py-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 id="payTitle" class="text-2xl md:text-3xl font-extrabold tracking-tight text-neutral-900">Pagamentos aceitos</h2>
+      <div class="space-y-6 mt-6">
+        <div class="flex items-center gap-3">
+          <svg class="h-7 w-7 text-emerald-600" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+            <path d="M3 10.5 12 4l9 6.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            <rect x="4" y="10.5" width="16" height="8" rx="2" stroke="currentColor" stroke-width="1.6"/>
+            <path d="M8 13.75v2.5M12 13.75v2.5M16 13.75v2.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+          </svg>
+          <div id="payBank" class="font-semibold">Financiamento bancário</div>
+        </div>
+        <div class="flex items-center gap-3">
+          <svg class="h-7 w-7 text-emerald-600" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+            <rect x="3" y="5" width="18" height="14" rx="2.5" stroke="currentColor" stroke-width="1.6"/>
+            <rect x="3" y="8" width="18" height="3" fill="currentColor" opacity=".2"/>
+            <rect x="6.5" y="14" width="5" height="1.8" rx="0.8" fill="currentColor"/>
+            <rect x="13.5" y="14" width="4" height="1.8" rx="0.8" fill="currentColor" opacity=".5"/>
+          </svg>
+          <div id="payCard" class="font-semibold">Cartão de crédito</div>
+          <div class="text-sm text-neutral-500">VISA・Mastercard・JCB・AMEX</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-12 md:py-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 id="aboutTitle" class="text-2xl md:text-3xl font-extrabold tracking-tight text-neutral-900">Quem somos</h2>
+      <p id="aboutBody" class="mt-6 text-neutral-700 leading-relaxed">Empresa brasileira-japonesa em Iwata/Hamamatsu. Trabalhamos com segurança, qualidade e atendimento bilíngue (Português・日本語).</p>
+    </div>
+  </section>
+
+  <section class="py-12 md:py-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 id="contactTitle" class="text-2xl md:text-3xl font-extrabold tracking-tight text-neutral-900">Contato</h2>
+      <div class="grid md:grid-cols-2 gap-8 mt-6">
+        <div class="space-y-3 text-neutral-700">
+          <div id="contactHours" class="font-semibold">Atendimento: Seg-Sáb 9:00–18:00</div>
+          <div>
+            <div class="text-sm text-neutral-500" id="addressLabel">Endereço</div>
+            <div>静岡県磐田市一色91-2</div>
+          </div>
+          <div>
+            <a href="tel:+818068892840" class="inline-block px-4 py-2 rounded-xl bg-emerald-600 text-white hover:bg-emerald-700">Ligar agora: 080-6889-2840</a>
+          </div>
+          <div>
+            <a href="https://wa.me/818068892840" class="inline-block px-4 py-2 rounded-xl border border-emerald-600 text-emerald-700 hover:bg-emerald-50">WhatsApp</a>
+          </div>
+        </div>
+        <form action="mailto:contato@shizenpower.jp" method="post" encType="text/plain" class="rounded-2xl border p-6 shadow-sm space-y-4">
+          <div id="formTitle" class="text-lg font-semibold">Envie uma mensagem</div>
+          <div>
+            <label id="formName" class="text-sm text-neutral-600">Seu nome</label>
+            <input required class="mt-1 w-full rounded-xl border px-3 py-2" name="name" />
+          </div>
+          <div>
+            <label id="formPhone" class="text-sm text-neutral-600">Telefone/WhatsApp</label>
+            <input class="mt-1 w-full rounded-xl border px-3 py-2" name="phone" value="080-6889-2840" />
+          </div>
+          <div>
+            <label id="formMsg" class="text-sm text-neutral-600">Mensagem</label>
+            <textarea required class="mt-1 w-full rounded-xl border px-3 py-2 h-28" name="message"></textarea>
+          </div>
+          <button id="formSend" class="px-4 py-2 rounded-xl bg-emerald-600 text-white hover:bg-emerald-700">Enviar por e-mail</button>
+          <p class="text-xs text-neutral-500">*Este formulário usa mailto:. Para um formulário com backend, integre com Formspree/Netlify ou sua API.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="mt-16 border-t bg-neutral-50">
+    <div class="max-w-6xl mx-auto px-4 py-8 text-sm text-neutral-600 flex flex-col md:flex-row items-center justify-between gap-3">
+      <div>© 2025 Shizen Power. Todos os direitos reservados.</div>
+      <div class="flex items-center gap-3">
+        <a href="tel:+818068892840" class="hover:underline">080-6889-2840</a>
+        <span class="text-neutral-400">|</span>
+        <a href="https://wa.me/818068892840" class="hover:underline">WhatsApp</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const PT = {
+      brandTag: "Energia • Elétrica • EcoCute",
+      heroSubtitle: "Elétrica residencial, Instalação de Painel Solar e EcoCute em Shizuoka",
+      quote: "Pedir orçamento", call: "Ligar agora",
+      pill1: "Elétrica", pill2: "Solar",
+      servicesTitle: "Serviços",
+      svc1t: "Elétrica residencial",
+      svc1d: "Instalação, manutenção, quadros de disjuntores, iluminação, tomadas 100V/200V e V2H.",
+      svc2t: "Instalação de Painel Solar",
+      svc2d: "Projetos sob medida, off-grid/on-grid, inversores híbridos e bancos de baterias.",
+      svc3t: "Instalação de EcoCute",
+      svc3d: "Substituição do gás por bomba de calor (CO₂). Economia de até 60% no aquecimento de água.",
+      ecoTitle: "Por que EcoCute?",
+      ecoBullets: [
+        "Até 60% mais barato que o gás (¥8.000–¥15.000 → EcoCute ¥3.000–¥6.000/mês)",
+        "Água quente estável para toda a família",
+        "Seguro (sem chama), silencioso e ecológico (CO₂)",
+        "Integração perfeita com energia solar"
+      ],
+      paymentsTitle: "Pagamentos aceitos",
+      payBank: "Financiamento bancário",
+      payCard: "Cartão de crédito",
+      aboutTitle: "Quem somos",
+      aboutBody: "Empresa brasileira-japonesa em Iwata/Hamamatsu. Trabalhamos com segurança, qualidade e atendimento bilíngue (Português・日本語).",
+      contactTitle: "Contato",
+      contactHours: "Atendimento: Seg-Sáb 9:00–18:00",
+      addressLabel: "Endereço",
+      formTitle: "Envie uma mensagem",
+      formName: "Seu nome",
+      formPhone: "Telefone/WhatsApp",
+      formMsg: "Mensagem",
+      formSend: "Enviar por e-mail"
+    };
+    const JA = {
+      brandTag: "電気工事・太陽光・エコキュート",
+      heroSubtitle: "住宅電気工事、太陽光発電、エコキュート設置（静岡：磐田・浜松）",
+      quote: "見積もり依頼", call: "今すぐ電話",
+      pill1: "電気工事", pill2: "太陽光",
+      servicesTitle: "サービス",
+      svc1t: "住宅電気工事",
+      svc1d: "分電盤、照明、100V/200Vコンセント、V2H、メンテナンス。",
+      svc2t: "太陽光発電の設置",
+      svc2d: "オン/オフグリッド、ハイブリッドインバーター、蓄電池を含む設計施工。",
+      svc3t: "エコキュート設置",
+      svc3d: "ガスからCO₂ヒートポンプへ。給湯コスト最大60%削減。",
+      ecoTitle: "エコキュートのメリット",
+      ecoBullets: [
+        "ガスより最大60%安い（ガス¥8,000–¥15,000 → エコキュート¥3,000–¥6,000/月）",
+        "家族分の安定したお湯",
+        "安全・静音・環境配慮（CO₂冷媒）",
+        "太陽光との相性抜群"
+      ],
+      paymentsTitle: "お支払い方法",
+      payBank: "銀行ローン",
+      payCard: "クレジットカード",
+      aboutTitle: "会社情報",
+      aboutBody: "磐田・浜松を中心に活動。安全・高品質・丁寧対応。ポルトガル語と日本語でご案内します。",
+      contactTitle: "お問い合わせ",
+      contactHours: "受付時間：月〜土 9:00–18:00",
+      addressLabel: "住所",
+      formTitle: "メッセージを送る",
+      formName: "お名前",
+      formPhone: "電話／WhatsApp",
+      formMsg: "メッセージ",
+      formSend: "メールで送信"
+    };
+
+    function setLang(lang){
+      const t = lang==='ja'? JA: PT;
+      document.getElementById('brandTag').textContent = t.brandTag;
+      document.getElementById('heroSubtitle').textContent = t.heroSubtitle;
+      document.getElementById('ctaQuote').textContent = t.quote;
+      document.getElementById('ctaCall').textContent = t.call;
+      document.getElementById('ctaCallTop').textContent = t.call + " 080-6889-2840";
+      document.getElementById('pill1').textContent = t.pill1;
+      document.getElementById('pill2').textContent = t.pill2;
+      document.getElementById('servicesTitle').textContent = t.servicesTitle;
+      document.getElementById('svc1t').textContent = t.svc1t;
+      document.getElementById('svc1d').textContent = t.svc1d;
+      document.getElementById('svc2t').textContent = t.svc2t;
+      document.getElementById('svc2d').textContent = t.svc2d;
+      document.getElementById('svc3t').textContent = t.svc3t;
+      document.getElementById('svc3d').textContent = t.svc3d;
+      document.getElementById('ecoTitle').textContent = t.ecoTitle;
+      document.getElementById('ecoBullets').innerHTML = t.ecoBullets.map(x=>'<li class="flex items-start gap-3"><span class="mt-1">✅</span><span>'+x+'</span></li>').join('');
+      document.getElementById('payTitle').textContent = t.paymentsTitle;
+      document.getElementById('payBank').textContent = t.payBank;
+      document.getElementById('payCard').textContent = t.payCard;
+      document.getElementById('aboutTitle').textContent = t.aboutTitle;
+      document.getElementById('aboutBody').textContent = t.aboutBody;
+      document.getElementById('contactTitle').textContent = t.contactTitle;
+      document.getElementById('contactHours').textContent = t.contactHours;
+      document.getElementById('addressLabel').textContent = t.addressLabel;
+      document.getElementById('formTitle').textContent = t.formTitle;
+      document.getElementById('formName').textContent = t.formName;
+      document.getElementById('formPhone').textContent = t.formPhone;
+      document.getElementById('formMsg').textContent = t.formMsg;
+      document.getElementById('formSend').textContent = t.formSend;
+    }
+    document.getElementById('btnPT').addEventListener('click', ()=>{
+      document.getElementById('btnPT').className='px-3 py-1 text-sm bg-emerald-600 text-white';
+      document.getElementById('btnJA').className='px-3 py-1 text-sm bg-white text-neutral-700 hover:bg-neutral-50';
+      setLang('pt');
+    });
+    document.getElementById('btnJA').addEventListener('click', ()=>{
+      document.getElementById('btnJA').className='px-3 py-1 text-sm bg-emerald-600 text-white';
+      document.getElementById('btnPT').className='px-3 py-1 text-sm bg-white text-neutral-700 hover:bg-neutral-50';
+      setLang('ja');
+    });
+    setLang('pt');
+  </script>
+</body>
+</html>
